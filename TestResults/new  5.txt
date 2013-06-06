@@ -1,0 +1,36 @@
+y[5].substring(y[5].indexOf("Link=")+"Link=".length , y[5].indexOf(","));
+
+
+
+y[5].substring(y[5].indexOf(",Title=") +",Title=".length ).replace("$","") 
+
+
+var text= $('#treegrid').getRowData(id)['TestOutput'];
+
+var lines= text.split("!");
+
+for(var i=0;i<lines.length;i++){
+ 
+     var HTMLLine="";
+     var line = lines[i];
+     if(line.indexOf("#") != -1 ){
+         
+        if(line.indexOf("##") != -1 ){         
+         #do H1    
+         
+         
+        }else{
+         #do H2 
+        }
+         
+     }else if line.indexOf("$") != -1 ){
+         #do ref
+         var ref= line .substring(line .indexOf("Link=")+"Link=".length , line .indexOf(","));
+         var title = line .substring(line .indexOf(",Title=") +",Title=".length ).replace("$","") 
+         HTMLLine ="<a href='";
+        HTMLLine=  HTMLLine.concat(ref,"'>",title,"</a>" );
+     
+                      
+     }         
+    doc.find('#dvTestLog').append(HTMLLine);
+}

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c30df69-3e7c-4176-a6fc-4649cb877c65" name="liel_r@W7-LIELR 2013-06-06 18:26:07" runUser="RAMDOR\liel_r" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="682f327c-e231-42e6-829c-9bcfac0e8618">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="liel_r_W7-LIELR 2013-06-06 18_26_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-06T18:26:07.3320136+03:00" queuing="2013-06-06T18:26:10.8062123+03:00" start="2013-06-06T18:26:11.0112240+03:00" finish="2013-06-06T18:26:12.6823196+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="14" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="W7-LIELR" outcome="Error" timestamp="2013-06-06T18:26:12.6813196+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod3" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="78047548-c2fb-ec7b-adbf-bbb4914c4e3d">
+      <Execution id="4cab1f47-0c85-4f11-8c20-e8108d0426ca" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest2, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="762813a8-6a9a-e8e5-34d5-f448a5291c4a">
+      <Execution id="a9ef57d1-9efe-479c-ba74-277687a88ce1" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="b96f2172-51f7-3767-573a-01ebaf3120be">
+      <Execution id="b5fd1eee-eb5e-45a3-b645-a0f5f8126646" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <OrderedTest name="orderedtest1" storage="c:\workspaces\clicksoftware\testproject2\testproject2\orderedtest1.orderedtest" id="5e30dd73-3222-4e89-8593-ad8468cd2e16">
+      <Execution id="52a41af5-b99b-4724-9b54-a9ba9776deb4" />
+      <TestLinks>
+        <TestLink id="b96f2172-51f7-3767-573a-01ebaf3120be" name="TestMethod1" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="762813a8-6a9a-e8e5-34d5-f448a5291c4a" name="TestMethod2" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" name="TestMethod3" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" name="TestMethod4444" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <OrderedTest name="orderedtest2" storage="c:\workspaces\clicksoftware\testproject2\testproject2\orderedtest2.orderedtest" id="3b5e70bb-fe8d-4921-8807-43c6fddf54fd">
+      <Execution id="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" />
+      <TestLinks>
+        <TestLink id="762813a8-6a9a-e8e5-34d5-f448a5291c4a" name="TestMethod2" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" name="TestMethod4444" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="b96f2172-51f7-3767-573a-01ebaf3120be" name="TestMethod1" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" name="TestMethod3" storage="bin\debug\testproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="TestMethod4444" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981">
+      <Execution id="7b248dde-c1c0-49bc-9503-b770693a3535" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest2, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4444" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" executionId="4cab1f47-0c85-4f11-8c20-e8108d0426ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b96f2172-51f7-3767-573a-01ebaf3120be" executionId="b5fd1eee-eb5e-45a3-b645-a0f5f8126646" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" executionId="a9ef57d1-9efe-479c-ba74-277687a88ce1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e30dd73-3222-4e89-8593-ad8468cd2e16" executionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="b96f2172-51f7-3767-573a-01ebaf3120be" executionId="f9381757-6f09-46ed-ade9-d81a4a1e4bca" parentExecutionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" executionId="6be8b982-4264-4ca8-8128-85ab7b000d8b" parentExecutionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" executionId="80b1cd98-99fe-4d26-8bc1-df1d38e2aefa" parentExecutionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" executionId="bb66ffbd-3b5c-4887-8306-ba5154108ef8" parentExecutionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+    <TestEntry testId="3b5e70bb-fe8d-4921-8807-43c6fddf54fd" executionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" executionId="10f8b390-ea9e-48c8-9aa3-a80e91aea1d0" parentExecutionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" executionId="3ed93fa5-aa32-42fb-befe-cb1cce405669" parentExecutionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="b96f2172-51f7-3767-573a-01ebaf3120be" executionId="04460585-a6cc-4a46-b2e0-0ed5126b96f4" parentExecutionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" executionId="17981a7f-c646-4d00-b947-98796c3d2525" parentExecutionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+    <TestEntry testId="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" executionId="7b248dde-c1c0-49bc-9503-b770693a3535" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4cab1f47-0c85-4f11-8c20-e8108d0426ca" testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" testName="TestMethod3" computerName="W7-LIELR" duration="00:00:00.0583755" startTime="2013-06-06T18:26:11.0622270+03:00" endTime="2013-06-06T18:26:12.4593069+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cab1f47-0c85-4f11-8c20-e8108d0426ca">
+      <Output>
+        <StdOut>this is Console out
+this is Console out2</StdOut>
+        <TextMessages>
+          <Message>[TEST NUMBER 3]</Message>
+          <Message>[TestMethod3]this is line number 1</Message>
+          <Message>[TestMethod3]this is line number 2</Message>
+          <Message>[TestMethod3]this is line number 3</Message>
+          <Message>[TestMethod1]this is line number 4</Message>
+          <Message>[TestMethod1]this is line number 5</Message>
+          <Message>[TestMethod1]this is line number 6</Message>
+          <Message>[TestMethod1]this is line number 7</Message>
+          <Message>[TestMethod1]this is line number 8</Message>
+          <Message>[TestMethod1]this is line number 9</Message>
+          <Message>[TestMethod1]this is line number 10</Message>
+          <Message>[TestMethod1]this is line number 11</Message>
+          <Message>$Link=http://www.ynet.ci.il,Title=ynet$</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5fd1eee-eb5e-45a3-b645-a0f5f8126646" testId="b96f2172-51f7-3767-573a-01ebaf3120be" testName="TestMethod1" computerName="W7-LIELR" duration="00:00:00.0043226" startTime="2013-06-06T18:26:12.4673073+03:00" endTime="2013-06-06T18:26:12.4753078+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5fd1eee-eb5e-45a3-b645-a0f5f8126646">
+      <Output>
+        <TextMessages>
+          <Message>[TEST NUMBER 1]</Message>
+          <Message>[TestMethod1]this is line number 1</Message>
+          <Message>[TestMethod1]this is line number 2</Message>
+          <Message>[TestMethod1]this is line number 3</Message>
+          <Message>[TestMethod1]this is line number 4</Message>
+          <Message>[TestMethod1]this is line number 5</Message>
+          <Message>[TestMethod1]this is line number 6</Message>
+          <Message>[TestMethod1]this is line number 7</Message>
+          <Message>[TestMethod1]this is line number 8</Message>
+          <Message>[TestMethod1]this is line number 9</Message>
+          <Message>[TestMethod1]this is line number 10</Message>
+          <Message>[TestMethod1]this is line number 11</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9ef57d1-9efe-479c-ba74-277687a88ce1" testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" testName="TestMethod2" computerName="W7-LIELR" duration="00:00:00.0056395" startTime="2013-06-06T18:26:12.4883085+03:00" endTime="2013-06-06T18:26:12.5013093+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9ef57d1-9efe-479c-ba74-277687a88ce1">
+      <Output>
+        <TextMessages>
+          <Message>[TEST NUMBER 2]</Message>
+          <Message>[TestMethod2]this is line number 1</Message>
+          <Message>[TestMethod2]this is line number 2</Message>
+          <Message>[TestMethod2]this is line number 3</Message>
+          <Message>[TestMethod2]this is line number 4</Message>
+          <Message>[TestMethod2]this is line number 5</Message>
+          <Message>[TestMethod2]this is line number 6</Message>
+          <Message>[TestMethod2]this is line number 7</Message>
+          <Message>[TestMethod2]this is line number 8</Message>
+          <Message>[TestMethod2]this is line number 9</Message>
+          <Message>[TestMethod2]this is line number 10</Message>
+          <Message>[TestMethod2]this is line number 11</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <TestResultAggregation executionId="52a41af5-b99b-4724-9b54-a9ba9776deb4" testId="5e30dd73-3222-4e89-8593-ad8468cd2e16" testName="orderedtest1" computerName="W7-LIELR" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52a41af5-b99b-4724-9b54-a9ba9776deb4">
+    </TestResultAggregation>
+    <TestResultAggregation executionId="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73" testId="3b5e70bb-fe8d-4921-8807-43c6fddf54fd" testName="orderedtest2" computerName="W7-LIELR" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2b6c55a-1d6d-4086-82a1-bc83b0a5ea73">
+    </TestResultAggregation>
+    <UnitTestResult executionId="7b248dde-c1c0-49bc-9503-b770693a3535" testId="16eb0923-c6ed-1cac-0bd1-dc1df2cb6981" testName="TestMethod4444" computerName="W7-LIELR" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b248dde-c1c0-49bc-9503-b770693a3535">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a902c034-193e-4953-b2cf-dd709b6cf901" name="liel_r@W7-LIELR 2013-05-22 00:04:52" runUser="RAMDOR\liel_r" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="682f327c-e231-42e6-829c-9bcfac0e8618">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="liel_r_W7-LIELR 2013-05-22 00_04_52" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T00:04:52.6784897+03:00" queuing="2013-05-22T00:04:52.7864959+03:00" start="2013-05-22T00:04:52.7934963+03:00" finish="2013-05-22T00:04:52.9965079+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod3" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="78047548-c2fb-ec7b-adbf-bbb4914c4e3d">
+      <Execution id="64d8277c-2aca-4f91-bc2c-aacad4a600d7" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest2, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="b96f2172-51f7-3767-573a-01ebaf3120be">
+      <Execution id="e38e4008-2c48-442c-b10f-96c0793e65b9" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="762813a8-6a9a-e8e5-34d5-f448a5291c4a">
+      <Execution id="89c9f1e6-6869-4efb-82dc-b9fb7e8c06bd" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="c:\workspaces\clicksoftware\testproject2\testproject2\bin\debug\testproject2.dll" id="279b4c1f-43c0-4b3d-9fab-267be1d9d601">
+      <Execution id="c7963b4f-5995-4ece-bf2f-ef274ba1fc4f" />
+      <TestMethod codeBase="C:/workspaces/ClickSoftware/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest2, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b96f2172-51f7-3767-573a-01ebaf3120be" executionId="e38e4008-2c48-442c-b10f-96c0793e65b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" executionId="89c9f1e6-6869-4efb-82dc-b9fb7e8c06bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" executionId="64d8277c-2aca-4f91-bc2c-aacad4a600d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="279b4c1f-43c0-4b3d-9fab-267be1d9d601" executionId="c7963b4f-5995-4ece-bf2f-ef274ba1fc4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e38e4008-2c48-442c-b10f-96c0793e65b9" testId="b96f2172-51f7-3767-573a-01ebaf3120be" testName="TestMethod1" computerName="W7-LIELR" duration="00:00:00.0210077" startTime="2013-05-22T00:04:52.7984965+03:00" endTime="2013-05-22T00:04:52.9515053+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e38e4008-2c48-442c-b10f-96c0793e65b9">
+      <Output>
+        <TextMessages>
+          <Message>[TEST NUMBER 1]</Message>
+          <Message>[TestMethod1]this is line number 1</Message>
+          <Message>[TestMethod1]this is line number 2</Message>
+          <Message>[TestMethod1]this is line number 3</Message>
+          <Message>[TestMethod1]this is line number 4</Message>
+          <Message>[TestMethod1]this is line number 5</Message>
+          <Message>[TestMethod1]this is line number 6</Message>
+          <Message>[TestMethod1]this is line number 7</Message>
+          <Message>[TestMethod1]this is line number 8</Message>
+          <Message>[TestMethod1]this is line number 9</Message>
+          <Message>[TestMethod1]this is line number 10</Message>
+          <Message>[TestMethod1]this is line number 11</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89c9f1e6-6869-4efb-82dc-b9fb7e8c06bd" testId="762813a8-6a9a-e8e5-34d5-f448a5291c4a" testName="TestMethod2" computerName="W7-LIELR" duration="00:00:00.0062307" startTime="2013-05-22T00:04:52.9535054+03:00" endTime="2013-05-22T00:04:52.9625059+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89c9f1e6-6869-4efb-82dc-b9fb7e8c06bd">
+      <Output>
+        <TextMessages>
+          <Message>[TEST NUMBER 2]</Message>
+          <Message>[TestMethod2]this is line number 1</Message>
+          <Message>[TestMethod2]this is line number 2</Message>
+          <Message>[TestMethod2]this is line number 3</Message>
+          <Message>[TestMethod2]this is line number 4</Message>
+          <Message>[TestMethod2]this is line number 5</Message>
+          <Message>[TestMethod2]this is line number 6</Message>
+          <Message>[TestMethod2]this is line number 7</Message>
+          <Message>[TestMethod2]this is line number 8</Message>
+          <Message>[TestMethod2]this is line number 9</Message>
+          <Message>[TestMethod2]this is line number 10</Message>
+          <Message>[TestMethod2]this is line number 11</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64d8277c-2aca-4f91-bc2c-aacad4a600d7" testId="78047548-c2fb-ec7b-adbf-bbb4914c4e3d" testName="TestMethod3" computerName="W7-LIELR" duration="00:00:00.0072662" startTime="2013-05-22T00:04:52.9645060+03:00" endTime="2013-05-22T00:04:52.9745066+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64d8277c-2aca-4f91-bc2c-aacad4a600d7">
+      <Output>
+        <StdOut>this is Console out
+this is Console out2</StdOut>
+        <TextMessages>
+          <Message>[TEST NUMBER 3]</Message>
+          <Message>[TestMethod3]this is line number 1</Message>
+          <Message>[TestMethod3]this is line number 2</Message>
+          <Message>[TestMethod3]this is line number 3</Message>
+          <Message>[TestMethod1]this is line number 4</Message>
+          <Message>[TestMethod1]this is line number 5</Message>
+          <Message>[TestMethod1]this is line number 6</Message>
+          <Message>[TestMethod1]this is line number 7</Message>
+          <Message>[TestMethod1]this is line number 8</Message>
+          <Message>[TestMethod1]this is line number 9</Message>
+          <Message>[TestMethod1]this is line number 10</Message>
+          <Message>[TestMethod1]this is line number 11</Message>
+          <Message>$Link=http://www.ynet.ci.il,Title=ynet$</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7963b4f-5995-4ece-bf2f-ef274ba1fc4f" testId="279b4c1f-43c0-4b3d-9fab-267be1d9d601" testName="TestMethod4" computerName="W7-LIELR" duration="00:00:00.0051073" startTime="2013-05-22T00:04:52.9765067+03:00" endTime="2013-05-22T00:04:52.9845072+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7963b4f-5995-4ece-bf2f-ef274ba1fc4f">
+      <Output>
+        <TextMessages>
+          <Message>[TEST NUMBER 4]</Message>
+          <Message>[TestMethod2]this is line number 1</Message>
+          <Message>[TestMethod2]this is line number 2</Message>
+          <Message>[TestMethod2]this is line number 3</Message>
+          <Message>[TestMethod2]this is line number 4</Message>
+          <Message>[TestMethod2]this is line number 5</Message>
+          <Message>[TestMethod2]this is line number 6</Message>
+          <Message>[TestMethod2]this is line number 7</Message>
+          <Message>[TestMethod2]this is line number 8</Message>
+          <Message>[TestMethod2]this is line number 9</Message>
+          <Message>[TestMethod2]this is line number 10</Message>
+          <Message>[TestMethod2]this is line number 11</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,6 @@
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\bin\Debug\OrderedTest2.orderedtest
+C:\workspaces\ClickSoftware\TestProject2\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
